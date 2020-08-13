@@ -26,7 +26,6 @@ from distutils.util import strtobool as sb
 import asyncio
 
 import pylast
-from pySmartDL import SmartDL
 from requests import get
 if bool(ENV):
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -55,7 +54,7 @@ if bool(ENV):
     except:
         pass
         
-    BOTLOG = sb(os.environ.get("BOTLOG", "False"))
+    BOTLOG = sb(os.environ.get("BOTLOG", "True"))
     PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
     PM_MESSAGE = os.environ.get(f"PM_MESSAGE", None)
     UPSTREAM_REPO_URL = os.environ.get(
@@ -63,14 +62,13 @@ if bool(ENV):
     "https://github.com/amitsharma123234/Plus")
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
     DB_URI = os.environ.get("DATABASE_URL", None)
-    PLUG = os.environ.get("PLUGIN_CHANNEL", None)
     OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
     AUTONAME_NAME = os.environ.get("AUTONAME_NAME", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
-    GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
+    CHROME_BIN = os.environ.get("CHROME_BIN", None)
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))

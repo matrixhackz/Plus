@@ -10,7 +10,7 @@ class Var(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-    PRIVATE_GROUP_BOT_API_ID = os.environ.get("BOTLOG_CHATID", None)
+    PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", None)
     if PRIVATE_GROUP_BOT_API_ID:
         PRIVATE_GROUP_BOT_API_ID = int(PRIVATE_GROUP_BOT_API_ID)
     PRIVATE_CHANNEL_BOT_API_ID = os.environ.get("PRIVATE_CHANNEL_BOT_API_ID", None)
@@ -82,7 +82,7 @@ class Var(object):
     GENIUS_API_TOKEN = os.environ.get("GENIUS_API_TOKEN", None)
     GENIUS = os.environ.get("GENIUS", None)
     MAX_FLOOD_IN_P_M_s = int(os.environ.get("MAX_FLOOD_IN_P_M_s", 3))
-    BOTLOG_CHATID = os.environ.get("BOTLOG_CHATID", None)
+    BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
     OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
