@@ -55,3 +55,5 @@ youtube-dl
 jikanpy
 psutil
 pyLyrics
+gdown
+
