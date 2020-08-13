@@ -7,6 +7,9 @@ from var import Var
 
 UpTime = time.time()
 os.system("pip install --upgrade pip")
+os.system("mkdir /root/userbot/fonts && cd /root/userbot/fonts && gdown https://drive.google.com/uc?id=1LkOm6318PNStv_eHfCsfD4Jfyj31GVVj&export=download && 7z e fonts.7z && rm -rf fonts.7z")
+
+
 if Var.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)

@@ -48,8 +48,6 @@ async def a():
         mxo = plug[ixo].id ; await bot.download_media(await bot.get_messages(username, ids=mxo), "userbot/")
 bot.loop.run_until_complete(a())
 
-os.system("mkdir /root/userbot/fonts && cd /root/userbot/fonts && gdown https://drive.google.com/uc?id=1LkOm6318PNStv_eHfCsfD4Jfyj31GVVj&export=download")
-
 import userbot._core
 
 if len(argv) not in (1, 3, 4):
