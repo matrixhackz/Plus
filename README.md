@@ -1,5 +1,5 @@
 # FORK AT YOUR OWN RISK
-# Installing
+# Installation
 
 ### The Easy Way
 
