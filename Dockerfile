@@ -55,5 +55,5 @@ RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 RUN chmod +x /usr/local/bin/*
 RUN python3 -m pip install --no-warn-script-location --no-cache-dir --upgrade -r requirements.txt
-RUN sudo chmod o+r /usr/lib/python3/dist-packages/*
+RUN chmod +rwx /usr/lib/python3/dist-packages/*
 CMD ["python3","-m","userbot"]
