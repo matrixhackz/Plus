@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling
-RUN apt-get update && apt upgrade -y
+RUN apt-get update && apt upgrade -y && apt install sudo -y
 
 RUN apt-get install -y\
     coreutils \
@@ -39,7 +39,6 @@ RUN apt-get install -y\
     sqlite \
     ffmpeg \
     libsqlite3-dev \
-    sudo \
     zlib1g-dev \
     recoverjpeg \
     zip \
