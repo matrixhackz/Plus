@@ -50,7 +50,6 @@ RUN apt-get install -y\
 
 
 RUN pip3 install --upgrade pip setuptools 
-RUN pip3 install --upgrade pip install wheel 
 RUN git clone https://github.com/amitsharma123234/Plus /root/userbot
 RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
