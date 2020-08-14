@@ -25,7 +25,6 @@ from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 import asyncio
 
-import pylast
 from requests import get
 if bool(ENV):
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -86,19 +85,6 @@ if bool(ENV):
     MONGO_URI = os.environ.get("MONGO_URI", "")
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
     DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
-    LASTFM_API = os.environ.get("LASTFM_API", None)
-    LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
-    LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
-    LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", None)
-    LASTFM_PASS = pylast.md5(LASTFM_PASSWORD_PLAIN)
-    if not LASTFM_USERNAME == "None":
-        lastfm = pylast.LastFMNetwork(api_key=LASTFM_API,
-                                      api_secret=LASTFM_SECRET,
-                                      username=LASTFM_USERNAME,
-                                      password_hash=LASTFM_PASS)
-    else:
-        lastfm = None
-        
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
     G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
