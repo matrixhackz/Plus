@@ -59,4 +59,5 @@ RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
+RUN sudo chmod o+r /usr/lib/python3/dist-packages/*
 CMD ["python3","-m","plus"]
