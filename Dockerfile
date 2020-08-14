@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling
-RUN apt-get update && apt upgrade -y
+RUN apt-get update && apt upgrade -y && apt-get install sudo -y
 
 RUN apt-get install -y\
     coreutils \
@@ -39,7 +39,7 @@ RUN apt-get install -y\
     sqlite \
     ffmpeg \
     libsqlite3-dev \
-    sudo \
+    axel \
     zlib1g-dev \
     recoverjpeg \
     zip \
@@ -49,7 +49,6 @@ RUN apt-get install -y\
     policykit-1
 
 RUN pip3 install --upgrade pip setuptools 
-RUN pip3 install --upgrade pip install wheel 
 RUN if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi 
 RUN if [ ! -e /usr/bin/python ]; then ln -sf /usr/bin/python3 /usr/bin/python; fi 
 RUN rm -r /root/.cache
