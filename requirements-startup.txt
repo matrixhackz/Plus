@@ -6,7 +6,6 @@ aria2p
 async_generator
 beautifulsoup4
 bs4
-bwb==3.0.0
 cfscrape
 coffeehouse
 cowpy
@@ -33,7 +32,6 @@ psycopg2-binary
 pySmartDL
 pybase64>=0.4.0
 pyfiglet
-pylast
 pymongo
 python-barcode
 python-dotenv
@@ -56,4 +54,6 @@ jikanpy
 psutil
 pyLyrics
 wheel
-
+cairosvg
+lottie
+glitch_this
