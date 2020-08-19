@@ -46,6 +46,7 @@ RUN apt-get install -y\
     megatools \
     libfreetype6-dev \
     procps \
+    xxd \
     policykit-1
 
 RUN pip3 install --upgrade pip setuptools 
