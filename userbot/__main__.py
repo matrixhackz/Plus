@@ -6,12 +6,13 @@ async def add_bot(bot_token):
 
 async def alt():
 	LOGS.info("Connecting to telegram servers...")
-	try:
-		await bot2.connect()
-		LOGS.info("String 2 Connected")
-	except:
-		LOGS.info("String Session 2 expired. Please create new one")
-		quit(1)
+	if bot2:
+		try:
+			await bot2.connect()
+			LOGS.info("String 2 Connected")
+		except:
+			LOGS.info("String Session 2 expired. Please create new one")
+			quit(1)
 	
 
 if len(argv) not in (1, 3, 4):
