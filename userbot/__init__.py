@@ -1,9 +1,4 @@
-import os
-import sys
-import time
-from telethon.sessions import StringSession
-from telethon import TelegramClient
-from var import Var
+import os, sys, time ; from telethon.sessions import StringSession ; from telethon import TelegramClient ; from var import Var
 
 UpTime = time.time()
 os.system("pip install --upgrade pip")
