@@ -1,25 +1,18 @@
-from userbot import bot
-from sys import argv
-import sys
-from var import boss as lukkhha
-from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
-import os
-from telethon import TelegramClient
-from var import Var
-from userbot import LOAD_PLUG, BOTLOG_CHATID, LOGS
-from pathlib import Path
-import asyncio
-import telethon.utils
-from telethon import events, functions, types
-from telethon.tl.types import InputMessagesFilterDocument
-import traceback
-kamina = lukkhha
+from userbot import * ; from sys import argv ; import sys, os, asyncio, traceback, telethon.utils ; from telethon.errors.rpcerrorlist import PhoneNumberInvalidError ; from telethon import TelegramClient ; from var import Var ; from var import boss as lukkhha ; from pathlib import Path ; from telethon import events, functions, types ; from telethon.tl.types import InputMessagesFilterDocument ; kamina = lukkhha
 async def add_bot(bot_token):
     await bot.start(bot_token)
     bot.me = await bot.get_me() 
     bot.uid = telethon.utils.get_peer_id(bot.me)
 
-
+async def alt():
+	LOGS.info("Connecting to telegram servers...")
+	try:
+		await bot2.start()
+		LOGS.info("String 2 Connected")
+	except:
+		LOGS.info("String Session 2 expired. Please create new one")
+		quit(1)
+	
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
