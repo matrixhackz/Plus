@@ -13,7 +13,7 @@ if Var.STRING_SESSION:
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
     quit(1)
-if Var.STRING2
+if Var.STRING2:
     session_name = str(Var.STRING2)
     bot2 = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
 
