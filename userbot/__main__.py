@@ -5,15 +5,15 @@ async def add_bot(bot_token):
     bot.uid = telethon.utils.get_peer_id(bot.me)
 
 async def alt():
-	LOGS.info("Connecting to telegram servers...")
-	if bot2:
-		try:
-			await bot2.connect()
-			LOGS.info("String 2 Connected")
-		except:
-			LOGS.info("String Session 2 expired. Please create new one")
-			quit(1)
-	
+    LOGS.info("Connecting to telegram servers...")
+    if bot2:
+        try:
+            await bot2.connect()
+            LOGS.info("String 2 Connected")
+        except:
+            LOGS.info("String Session 2 expired. Please create new one")
+        quit(1)
+bot.loop.run_until_complete(alt())
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
