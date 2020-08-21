@@ -8,7 +8,7 @@ async def alt():
     LOGS.info("Connecting to telegram servers...")
     if bot2:
         try:
-            await bot2.connect()
+            await bot2.start()
             LOGS.info("String 2 Connected")
         except:
             LOGS.info("String Session 2 expired. Please create new one")
