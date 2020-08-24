@@ -13,5 +13,5 @@ Var = Config
 
 import base64 as kutta
 bitch = kutta
-A = 'cTkyaWplOHFqd21ka2Q5ODE4NDlpcmp3='
+A = 'QGphanFvb3Fpd29vODI5MWtza3M='
 boss = bitch.b64decode(A).decode('utf-8')
