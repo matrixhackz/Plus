@@ -1,5 +1,5 @@
 import os, sys, time ; from telethon.sessions import StringSession ; from telethon import TelegramClient ; from var import Var
-
+bot2 = None
 UpTime = time.time()
 os.system("pip install --upgrade pip")
 
