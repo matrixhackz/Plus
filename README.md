@@ -10,7 +10,7 @@
 
 <a href="https://github.com/amitsharma123234/Plus/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/amitsharma123234/Plus?color=orange&style=for-the-badge"></a>
 
-<a href="https://github.com/amitsharma123234/Plus/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/amitsharma123234/Plus?color=orange&"></a>
+<a href="https://github.com/amitsharma123234/Plus/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/amitsharma123234/Plus?color=orange&style=for-the-badge"></a>
 
 ### The Normal Way
 
