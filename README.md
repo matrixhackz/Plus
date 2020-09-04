@@ -5,6 +5,11 @@
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+### Repo Status
+<a href="https://github.com/amitsharma123234/Plus"><img alt="star this repo" src="https://githubbadges.com/star.svg?user=amitsharma123234&repo=Plus&style=flat-square&color=fff&background=FF5733" /></a>
+
+<a href="https://github.com/amitsharma123234/Plus/fork"><img alt="fork this repo" src="https://githubbadges.com/fork.svg?user=amitsharma123234&repo=Plus&style=flat-square&color=fff&background=FF5733" /></a>
+
 ### The Normal Way
 
 Paste this in termux to get string session:
