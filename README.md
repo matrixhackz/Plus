@@ -8,7 +8,7 @@
 ### Repo Status
 <a href="https://github.com/amitsharma123234/Plus"><img alt="star this repo" src="https://githubbadges.com/star.svg?user=amitsharma123234&repo=Plus&style=flat-square&color=fff&background=FF5733" /></a>
 
-<a href="https://github.com/amitsharma123234/Plus/fork"><img alt="fork this repo" src="https://githubbadges.com/fork.svg?user=amitsharma123234&repo=Plus&style=flat-square&color=fff&background=FF5733" /></a>
+<a href="https://github.com/amitsharma123234/Plus/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/amitsharma123234/Plus?color=orange"></a>
 
 <a href="https://github.com/amitsharma123234/Plus/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/amitsharma123234/Plus?color=orange"></a>
 
