@@ -35,7 +35,7 @@ class Var(object):
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD = int(os.environ.get("NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD", 5))
-    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", ".")
+    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", "\.")
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
     VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
