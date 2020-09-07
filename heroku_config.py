@@ -1,7 +1,7 @@
 import os
 from pymongo import MongoClient
 import pymongo
-
+Config = Var
 
 class Var(object):
     LOGGER = True
