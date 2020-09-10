@@ -21,7 +21,6 @@
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./userbot/DOWNLOADS/",
-      "required": false
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org or @usetgxbot. Please do not steal",
@@ -54,37 +53,10 @@
     "MAX_FLOOD_IN_P_M_s": {
       "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 3 by default.",
       "value": "3",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-      "value": "",
-      "required": false
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: amitsharma123234/Plus, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
     },
     "SUDO_USERS": {
-      "description": "Makes your acc and bot stable",
+      "description": "Your id is must otherwise it won't trigger commands for you",
       "value": "",
-      "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
@@ -93,21 +65,14 @@
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/usr/bin/google-chrome",
-      "required": false
     },
     "CHROME_DRIVER": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/usr/bin/chromedriver",
-      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
-    },
-    "DOWNLOAD_PFP_URL_CLOCK": {
-      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
-      "value": "",
-      "required": false
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
@@ -116,36 +81,6 @@
     "COUNTRY": {
       "description": "Your country name.",
       "value": "India"
-    },
-    "AUTONAME_NAME": {
-      "description": "Required for Name on autoname plugin",
-      "value": "",
-      "required": false
-    },
-    "AUTOPIC_COMMENT": {
-      "description": "Comment shown with time and date in autopic",
-      "value": "",
-      "required": false
-    },
-    "CUSTOM_AFK": {
-      "description": "This will be shown when you go afk without reason",
-      "value": "",
-      "required": false
-    },
-    "MASTERS_MSG": {
-      "description": "This will be shown when you go afk with reason",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_NAME": {
-      "description": "Used for .alive",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_PIC": {
-      "description": "Used for .alive",
-      "value": "",
-      "required": false
     },
     "AUTH_TOKEN_DATA": {
       "description": "Let it be none till you get your auth token data by following https://da.gd/so63O",
@@ -164,4 +99,3 @@
     }
   ]
 }
-
