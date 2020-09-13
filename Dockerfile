@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling
-RUN apt-get update && apt upgrade -y && apt-get install sudo -y
+RUN apt-get update && apt upgrade -y
 
 RUN apt-get install -y\
     coreutils \
@@ -28,8 +28,8 @@ RUN apt-get install -y\
     postgresql-client \
     postgresql-server-dev-all \
     openssl \
-    pv \
-    jq \
+    libmediainfo \
+    mediainfo \
     wget \
     python3 \
     python3-dev \
