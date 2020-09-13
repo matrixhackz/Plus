@@ -1,7 +1,7 @@
 import os
 from pymongo import MongoClient
 import pymongo
-Config = Var
+
 
 class Var(object):
     LOGGER = True
@@ -113,7 +113,7 @@ def is_mongo_alive():
 
 
 
-
+Config = Var
 
 class Production(Var):
     LOGGER = False
