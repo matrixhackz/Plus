@@ -28,7 +28,6 @@ RUN apt-get install -y\
     postgresql-client \
     postgresql-server-dev-all \
     openssl \
-    libmediainfo \
     mediainfo \
     wget \
     python3 \
