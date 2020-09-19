@@ -61,8 +61,8 @@ if bool(ENV):
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
-    CHROME_BIN = os.environ.get("CHROME_BIN", None)
+    CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/usr/bin/chromedriver")
+    CHROME_BIN = os.environ.get("CHROME_BIN", "/usr/bin/google_chrome")
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
@@ -85,7 +85,7 @@ if bool(ENV):
     G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY",
-                                         "./downloads")
+                                         "userbot/DOWNLOADS")
 else:
     PLACEHOLDER = None
 
