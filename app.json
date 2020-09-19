@@ -65,12 +65,13 @@
     "COMMAND_HAND_LER": {
       "description": "This is used to use command.",
       "value": "."
-    },
+    }
   },
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
+        "version": "9.6"
       }
     }
   ]
