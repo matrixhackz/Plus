@@ -61,10 +61,6 @@
     "AUTH_TOKEN_DATA": {
       "description": "Let it be none till you get your auth token data by following https://da.gd/so63O",
       "value": "None"
-    },
-    "COMMAND_HAND_LER": {
-      "description": "This is used to use command.",
-      "value": "."
     }
   },
   "addons": [
