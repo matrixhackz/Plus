@@ -36,11 +36,11 @@
     },
     "MAX_FLOOD_IN_P_M_s": {
       "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 3 by default.",
-      "value": "3",
+      "value": "3"
     },
     "SUDO_USERS": {
       "description": "Your id is must otherwise it won't trigger commands for you",
-      "value": "",
+      "value": ""
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
