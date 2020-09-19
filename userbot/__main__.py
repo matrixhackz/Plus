@@ -1,4 +1,4 @@
-from userbot import * ; from sys import argv ; import sys, os, asyncio, traceback, telethon.utils ; from telethon.errors.rpcerrorlist import PhoneNumberInvalidError ; from telethon import TelegramClient ; from var import Var ; from var import boss as lukkhha ; from pathlib import Path ; from telethon import events, functions, types ; from telethon.tl.types import InputMessagesFilterDocument ; kamina = lukkhha
+from . import * ; from sys import argv ; import sys, os, asyncio, traceback, telethon.utils ; from telethon.errors.rpcerrorlist import PhoneNumberInvalidError ; from telethon import TelegramClient ; from var import Var ; from var import boss as lukkhha ; from pathlib import Path ; from telethon import events, functions, types ; from telethon.tl.types import InputMessagesFilterDocument ; kamina = lukkhha
 async def add_bot(bot_token):
     await bot.start(bot_token)
     bot.me = await bot.get_me() 
