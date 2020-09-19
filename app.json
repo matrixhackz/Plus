@@ -65,7 +65,7 @@
     "COMMAND_HAND_LER": {
       "description": "This is used to use command.",
       "value": "."
-    }
+    },
   },
   "addons": [
     {
