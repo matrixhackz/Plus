@@ -96,8 +96,8 @@ class Var(object):
         t_file = open(TEMP_DOWNLOAD_DIRECTORY+"auth_token.txt","w")
         t_file.write(AUTH_TOKEN_DATA)
         t_file.close()
-    CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
-    CHROME_BIN = os.environ.get("CHROME_BIN", None)
+    CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/usr/bin/chromedriver")
+    CHROME_BIN = os.environ.get("CHROME_BIN", "/usr/bin/google-chrome")
     UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/amitsharma123234/Plus.git")
 MONGOCLIENT = MongoClient(Var.MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 MONGO = MONGOCLIENT.userbot
