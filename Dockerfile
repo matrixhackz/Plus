@@ -28,8 +28,7 @@ RUN apt-get install -y\
     postgresql-client \
     postgresql-server-dev-all \
     openssl \
-    pv \
-    jq \
+    mediainfo \
     wget \
     python3 \
     python3-dev \
@@ -46,7 +45,6 @@ RUN apt-get install -y\
     megatools \
     libfreetype6-dev \
     procps \
-    xxd \
     policykit-1
 
 RUN pip3 install --upgrade pip setuptools 
